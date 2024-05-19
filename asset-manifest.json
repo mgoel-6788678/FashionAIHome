@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FashionAIHome/static/css/main.e5db3261.css",
+    "main.js": "/FashionAIHome/static/js/main.802f8ba3.js",
+    "static/media/robo_img.jpeg": "/FashionAIHome/static/media/robo_img.03953ed5878c1cc01bc3.jpeg",
+    "index.html": "/FashionAIHome/index.html",
+    "main.e5db3261.css.map": "/FashionAIHome/static/css/main.e5db3261.css.map",
+    "main.802f8ba3.js.map": "/FashionAIHome/static/js/main.802f8ba3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5db3261.css",
+    "static/js/main.802f8ba3.js"
+  ]
+}
