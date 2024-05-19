@@ -92,7 +92,7 @@ function App() {
       setTimeout(() => {
         // getBotMessage.innerText = "I am fine, thank you";
         // botMessage.innerHTML = '<img src="' + image + '" alt="Robo Image" style="width: 100px; height: auto;"/>';
-      fetch("http://localhost:4000/api", options).then(response => response.json())
+      fetch("https://faiserver.azurewebsites.net/", options).then(response => response.json())
         .then(data=> {
           console.log("Got data:",data.data)
           // const urls = JSON.parse(data.data)
