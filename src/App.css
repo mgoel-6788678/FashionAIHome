@@ -1,0 +1,122 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.wrapper{
+  width: 100%;
+  max-width: 800px;
+  padding: 30px 30px;
+  background: #fdfdfe;
+  border-radius: 20px;
+  
+  box-shadow: 0 4px 4px rgba(0,0,0,0.4);
+}
+.wrapper .content .header{
+  display: flex;
+  align-items: center;
+  
+}
+.wrapper .content .header .img img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.wrapper .content .header .right{
+  margin-left: 10px;
+}
+.wrapper .content .header .right .name{
+  font-weight: 500;
+  font-size: 1.3em;
+}
+.wrapper .content .header .right .status{
+  /* font-size: 0.8em; */
+  color: #363062;
+  font-weight: 500;
+}
+.wrapper .content .main{
+  margin: 30px 0 0;
+}
+.wrapper .content .main .main_content {
+  height: 450px; /* Limiting height of the chatbox content */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.wrapper .content .main .main_content .messages{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper .content .main .main_content .messages .bot-message{
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-style: 1.1em;
+  border-radius: 10px;
+  margin: 0 10px 0;
+}
+.wrapper .content .main .main_content .messages .human-message{
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #EDECED;
+  font-style: 1.1em;
+  border-radius: 10px;
+  /* margin: 0 10px 0; */
+  position: relative;
+  top: 120px;
+  margin-bottom: 20px;
+}
+.wrapper .content .bottom{
+  margin: 0 0 0;
+}
+.wrapper .content .bottom .btm{
+  display: flex;
+  align-items: center;
+}
+.wrapper .content .bottom .btm .input input{
+  width: 700px;
+  height: 50px;
+  padding-left: 36px;
+  outline: none;
+  border: none;
+  background: #EDECED;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.wrapper .content .bottom .btm .btn{
+  margin-left: 10px;
+}
+.wrapper .content .bottom .btm .btn button{
+  width: 100px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #FFF;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+.wrapper .content .bottom .btm .btn button i{
+  margin-left: 5px;
+}
